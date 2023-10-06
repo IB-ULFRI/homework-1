@@ -1,0 +1,18 @@
+name: 'Check Syntax Errors in Notebook'
+
+on:
+  workflow_dispatch:
+  push:
+
+jobs:
+  check-syntax:
+    
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Check Syntax
+        uses: IB-ULFRI/homework-actions@main
+
