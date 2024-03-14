@@ -41,3 +41,6 @@ You can start the notebook by running
 jupyter lab
 ```
 and a browser window should pop open, or you can manually navigate to http://localhost:8888/ in your browser.
+
+
+[![License: CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
