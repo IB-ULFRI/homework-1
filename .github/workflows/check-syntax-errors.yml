@@ -37,11 +37,14 @@ jobs:
         with:
           args: >
             bacteria_threshold
-            bacteria_comments
+            permutation_threshold_reasonable
+            different_thresholds
             covid_threshold
+            covid_proc_experiment
+            different_thresholds
             transmembrane_candidates
-            transmembrane_comments
-            virus_size_comments
+            rna_dna_virus_longer
+            sars_cov_2_is_long
         
       - name: Notebook and helper_functions files present
         uses: ./homework-actions/action-files-present
