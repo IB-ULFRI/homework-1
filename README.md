@@ -1,4 +1,4 @@
-# Homework 1 - ORF finding: how many genes are in the SARS-Cov-2 genome?
+# Homework 1 - A first look at the genome
 
 Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is a strain of coronavirus that causes COVID-19. Throughout these homework assignments, we will analyze this virus and try to understand its origins and inner workings. We will implement the necessary bioinformatics tools and apply them to further our understanding of this pesky little virus.
 
