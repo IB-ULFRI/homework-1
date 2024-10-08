@@ -12,6 +12,16 @@ We can find potential genes in a genome by looking for common patterns shared ac
 
 Open `homework-1.ipynb` to get started.
 
+## Consent Form for Participation in Automated Grading Study
+
+We are conducting a study on the use of large language models (LLMs) to help grade homework assignments. Your homework will either be graded by an LLM or a human TA, chosen at random. You will not know which method was used. You may request a human review of any section of your graded homework after receiving your grades. Participation is purely voluntary, and opting out will not affect your grade in any way. For additional information, please contact the TAs via e-mail: pavlin.policar@fri.uni-lj.si and martin.spendl@fri.uni-lj.si.
+
+If you do not wish to participate in this study, please uncheck the box below (remove the `x` inside the square brackets):
+
+- [x] I consent to participate in the LLM grading study.
+
+Thank you for your contribution to this research!
+
 ## Submission and Grading
 
 To complete the homework, you need to commit and push your work, including all the code, notebook, and images to your GitHub repository. You do not need to submit anything else. We will open assignments on Ucilnica, but these are there only for your convenince, so the due dates are visible in your Ucilnica calendar.
