@@ -30,7 +30,9 @@ For grading, we automatically generate a report for every student, so we never a
 
 There are three types of exercises/answers within each homework:
 
-1. *Coding exercises* require you to implement an algorithm. We will always include Python stubs for the functions you need to implement in a separate file (most often `helper_functions.py`). Please read the function docstrings for expected parameter and return types. Coding problems will be automatically graded with unit tests.
+1. *Coding exercises* require you to implement one of the algorithms you learned about in lectures. We will always include Python stubs for the functions you need to implement in a separate file (most often `helper_functions.py`). Please read the function docstrings for expected parameter and return types. Coding problems will be automatically graded with unit tests.
+
+   For some problem sets, we may provide unit tests, which you will be able to find in `test_helper_functions.py`. These unit tests are meant only to serve as a guideline and are not exhaustive. It is good practice to write your own tests to convince yourself that your implementation works as intended. Your code will be graded on a different, more exhaustive set of unit tests.
 
 2. *Image answers* require you to generate an image and save the plot to a corresponding file in `<img>.png`. Please ensure that your images have the exact same name as specified in the instructions and are stored in the root folder of the repository (the same folder as the README.md file).
 
