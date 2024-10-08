@@ -40,7 +40,7 @@ We will automatically fetch your solutions at the deadline and these submissions
 
 ## Environment instructions
 
-You will need Python 3.8 or higher. You will need to install `biopython` for accessing NCBI and `matplotlib` for plotting. You will also need `jupyterlab` to open and run the notebook. You can also use `numpy`, `pandas`, and `seaborn`. You can install everything necessary by running
+You will need Python 3.10 or higher. You will need to install `biopython` for accessing NCBI and `matplotlib` for plotting. You will also need `jupyterlab` to open and run the notebook. You can also use `numpy`, `pandas`, and `seaborn`. You can install everything necessary by running
 ```
 pip install biopython matplotlib jupyterlab
 ```
