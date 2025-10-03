@@ -41,7 +41,7 @@ jobs:
             different_thresholds
             covid_threshold
             covid_proc_experiment
-            different_thresholds
+            covid_different_thresholds
             transmembrane_candidates
             rna_dna_virus_longer
             sars_cov_2_is_long
