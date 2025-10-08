@@ -14,7 +14,7 @@ Open `homework-1.ipynb` to get started.
 
 ## Consent Form for Participation in Automated Grading Study
 
-We are conducting a study on the use of large language models (LLMs) to help grade homework assignments. Your homework will either be graded by an LLM or a human TA, chosen at random. You will not know which method was used. You may request a human review of any section of your graded homework after receiving your grades. Participation is purely voluntary, and opting out will not affect your grade in any way. For additional information, please contact the TAs via e-mail: pavlin.policar@fri.uni-lj.si and martin.spendl@fri.uni-lj.si.
+We are conducting a study on the use of large language models (LLMs) to help grade homework assignments. Your homework will either be graded by an LLM or a human teaching assistant (TA), chosen at random. You will not know which method was used. You may request a human review of any section of your graded homework after receiving your grades. Participation is purely voluntary, and opting out will not affect your grade in any way. For additional information, please contact the TAs via e-mail: pavlin.policar@fri.uni-lj.si and martin.spendl@fri.uni-lj.si.
 
 If you do not wish to participate in this study, please uncheck the box below (remove the `x` inside the square brackets):
 
@@ -46,7 +46,7 @@ You will need Python 3.10 or higher. You will need to install `biopython` for ac
 ```
 pip install biopython matplotlib jupyterlab
 ```
-Please do not use any other libraries, because they will not be installed in the automatic grader environment and will fail, resulting in zero points. If you think some other library absolutely needs to be included, please reach out on Slack and we will discuss it there.
+Please do not use any other libraries, because they will not be installed in the automatic grading environment and will fail, resulting in zero points. If you think some other library absolutely needs to be included, please reach out to the TAs.
 
 You can start the notebook by running
 ```
