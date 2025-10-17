@@ -35,12 +35,12 @@ def extract_gt_orfs(record, start_codons, stop_codons, validate_cds=True, verbos
     orfs = []
     for region in cds_regions:
         loc = region.location
-        seq = record.seq[loc.start.position:loc.end.position]
-        if region.strand == -1:
+        seq = record.seq[loc.start:loc.end]
+        if loc.strand == -1:
             seq = seq.reverse_complement()
-            
+
         if not validate_cds:
-            orfs.append((region.strand, loc.start.position, loc.end.position))
+            orfs.append((loc.strand, int(loc.start), int(loc.end)))
             continue
 
         try:
@@ -53,16 +53,16 @@ def extract_gt_orfs(record, start_codons, stop_codons, validate_cds=True, verbos
                 ), f"Stop codon {codon} found in the middle of the sequence!"
 
             # The CDS looks fine, add it to the ORFs
-            orfs.append((region.strand, loc.start.position, loc.end.position))
+            orfs.append((loc.strand, int(loc.start), int(loc.end)))
 
         except AssertionError as ex:
             if verbose:
                 print(
                     "Skipped CDS at region [%d - %d] on strand %d"
-                    % (loc.start.position, loc.end.position, region.strand)
+                    % (int(loc.start), int(loc.end), loc.strand)
                 )
                 print("\t", str(ex))
-                
+
     # Some ORFs in paramecium have lenghts not divisible by 3. Remove these
     orfs = [orf for orf in orfs if (orf[2] - orf[1]) % 3 == 0]
 
